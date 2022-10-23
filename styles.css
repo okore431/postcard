@@ -1,8 +1,7 @@
 body {
 	background: black;
-	font-family: "Cookie", cursive;
-	font-family: "Inter", sans-serif;
-	font-family: "Signika Negative", sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: bold;
 }
 
 .postcard {
@@ -34,6 +33,11 @@ body {
 .body-right {
 	padding: 10px;
 }
+
+.input-font {
+	font-family: "Roboto Condensed", sans-serif;
+}
+
 input {
 	border: none;
 	border-bottom: 1px solid grey;
@@ -42,7 +46,14 @@ input {
 	text-align: center;
 }
 button {
+	font-weight: bold;
 	background-color: gray;
 	padding: 5px 10px;
 	border: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
 }
